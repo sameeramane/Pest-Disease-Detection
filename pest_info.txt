@@ -1,0 +1,30 @@
+banana_aphid: Banana aphids can cause stunted growth and yellowing of leaves. Prevention includes using insecticidal soap or neem oil, and introducing natural predators like ladybugs.
+banana_healthy: No pest or disease detected. Your plant is healthy.
+banana_leaf eating caterpillar: These caterpillars feed on banana leaves, causing significant damage. Control methods include hand-picking, using Bacillus thuringiensis (Bt), or applying neem oil.
+banana_rhizome weevil: Rhizome weevils damage the banana plant's underground parts. Prevent by using nematodes or insecticides and ensuring proper drainage.
+banana_stem weevil: These pests bore into the banana plant's stem. Use insecticides, trap crops, or beneficial nematodes to manage them.
+banana_thrips: Thrips cause distortion and silvering of banana leaves. Control methods include using insecticidal soap, neem oil, or introducing predatory mites.
+mango_fruit fly: Mango fruit flies cause rotting of fruits. Use fruit fly traps, cover fruits with netting, and apply insecticides if necessary.
+mango_healthy: No pest or disease detected. Your mango plant is healthy.
+mango_hopper: Mango hoppers cause damage by feeding on plant sap and spreading diseases. Control methods include insecticidal sprays and maintaining plant health.
+mango_mealybug: Mealybugs suck sap from mango plants and can transmit diseases. Use insecticidal soap, neem oil, or introduce natural predators.
+mango_red banded caterpillar: These caterpillars feed on mango leaves, causing damage. Control by using Bt, hand-picking, or insecticidal sprays.
+mango_seed weevil: Seed weevils attack mango seeds. Use insecticides, traps, or remove affected fruits to manage them.
+rice_asiatic rice borer: This pest damages rice plants by boring into stems. Control methods include using resistant varieties and insecticides.
+rice_brown plant hopper: Brown plant hoppers transmit diseases and damage rice plants. Use resistant varieties, insecticides, or natural predators.
+rice_leaf caterpillar: Leaf caterpillars feed on rice leaves, causing damage. Use Bt, insecticidal sprays, or introduce natural enemies.
+rice_leaf hopper: Leaf hoppers transmit diseases and cause leaf curling. Control by using insecticides, resistant varieties, or biological control agents.
+rice_leaf roller: Leaf rollers fold and feed on rice leaves. Use insecticides, natural predators, or manual removal to control them.
+rice_paddy stem maggot: Stem maggots damage rice stems. Control methods include using resistant varieties, proper water management, and insecticides.
+rice_thirps:  Rice thirps are small pests that feed on rice leaves and panicles, causing discoloration and stunted growth. Control methods includes, Release predatory mites or parasitoids, avoid continuous rice cropping to reduce thirps populations.
+rice_yellow rice borer: Yellow rice borers damage rice grains. Use resistant varieties, insecticides, or biological control methods.
+sorghum_aphid: Aphids on sorghum can transmit diseases and cause stunted growth. Use insecticidal soap, neem oil, or natural predators to manage them.
+sorghum_midge: Sorghum midges damage the grain and flowers. Control methods include insecticides, resistant varieties, and proper field management.
+tomato_beet armyworm: Armyworms feed on tomato leaves and fruits. Use Bt, insecticides, or natural predators to control them.
+tomato_cotton bollworm: Bollworms damage tomato fruits and leaves. Use Bt, insecticides, or trap crops to manage them.
+tomato_cotton leafworm: These worms feed on tomato leaves, causing damage. Use Bt, insecticides, or manual removal to control them.
+tomato_melon fly: Melon flies cause damage to tomato fruits. Use traps, exclusion methods, and insecticides to control them.
+tomato_red spider mite: Spider mites cause leaf damage and webbing. Use miticides, insecticidal soap, or increase humidity to manage them.
+tomato_silverleaf whitefly: Whiteflies transmit diseases and cause leaf damage. Use insecticidal soap, neem oil, or introduce natural predators.
+tomato_thirps palmi: Thrips cause leaf and fruit damage. Control by using insecticidal soap, neem oil, or introducing predatory insects.
+tomato_winged adult green peach aphid: Aphids cause stunted growth and transmit diseases. Use insecticidal soap, neem oil, or introduce natural predators.

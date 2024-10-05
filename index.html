@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pest and Disease Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .results h3 {
+            text-align: left; /* Aligns bold headers to the left */
+        }
+        .results ul {
+            text-align: left; /* Aligns list items to the left */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <h1>Plant Pest and Disease Detection</h1>
+
+        <!-- Create two columns for pest and disease detection -->
+        <div class="row">
+            <!-- Column 1: Pest Detection -->
+            <div class="column">
+                <h2>Pest Detection</h2>
+                <form action="/detect_pest" method="POST" enctype="multipart/form-data">
+                    <label>Select a pest image:</label><br>
+                    <input type="file" name="file" accept="image/*"><br><br>
+                    <input type="submit" value="Detect Pest">
+                </form>
+            </div>
+
+            <!-- Column 2: Disease Detection -->
+            <div class="column">
+                <h2>Disease Detection</h2>
+                <form action="/detect_disease" method="POST" enctype="multipart/form-data">
+                    <label>Select a disease image:</label><br>
+                    <input type="file" name="file" accept="image/*"><br><br>
+                    <input type="submit" value="Detect Disease">
+                </form>
+            </div>
+        </div>
+
+        <!-- Results Section (below both columns) -->
+        <div class="results">
+            {% if detected %}
+                <h3>Detected Objects</h3>
+                <ul>
+                    {% for obj in detected %}
+                        <li>{{ obj }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+
+            {% if info %}
+                <h3>Additional Information:</h3>
+                <ul>
+                    {% for item in info %}
+                        <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+
+            {% if image_path %}
+                <h3>Image: </h3>
+                <img src="{{ image_path }}" alt="Detected Image" style="max-width: 400px;">
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
